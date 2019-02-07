@@ -61,6 +61,8 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2 id="registration">Registration</h2>
+Registration will open in early March. Please check back here at that time.
 
 <h2 id="general">General Information</h2>
 
