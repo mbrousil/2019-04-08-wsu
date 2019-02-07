@@ -688,58 +688,6 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div>
-    <ul class="nav nav-tabs nav-justified" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#sql-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#sql-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
-    </ul>
-
-    <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="sql-windows">
-        <p>
-          The <a href="https://www.sqlite.org/download.html">
-            {% if page.carpentry == "swc" %}
-            Software Carpentry
-            {% elsif page.carpentry == "dc" %}
-            Data Carpentry
-            {% elsif page.carpentry == "lc" %}
-            Library Carpentry
-            {% endif %}
-            Windows Installer
-	  </a>
-          installs SQLite for Windows.
-          If you used the installer to configure nano, you don't need to run it again.
-        </p>
-      </article>
-      <article role="tabpanel" class="tab-pane active" id="sql-macos">
-        <p>
-          SQLite comes pre-installed on macOS.
-        </p>
-      </article>
-      <article role="tabpanel" class="tab-pane active" id="sql-linux">
-        <p>
-          SQLite comes pre-installed on Linux.
-        </p>
-      </article>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-      <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-      Instructors will provide a workaround for it if needed.</strong></p>
-</div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
-
 
 {% comment %}
 <div id="vm">
