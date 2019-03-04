@@ -215,14 +215,20 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <hr/>
 
 
+
+
 {% comment %}
 SCHEDULE
+
+
 
 Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+
+Please note: Schedule and syllabus are templates and are subject to change based on the instructors' discretion.
 
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
@@ -249,6 +255,7 @@ e.g., '2015-06-10-esu'.
 {% endif %}
 
 <hr/>
+
 
 {% comment %}
 SYLLABUS
