@@ -62,7 +62,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 <h2 id="registration">Registration</h2>
-Registration will open in early March. Please check back here at that time.
+The workshop cost is $25, payable by credit card or Washington State University IRI. Register <a href="https://formtool.wsu.edu/cereo/Signup/index.castle?formid=11">here</a>
 
 <h2 id="general">General Information</h2>
 
